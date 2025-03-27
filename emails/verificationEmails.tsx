@@ -24,13 +24,13 @@ import {
         <Head />
         <Body style={main}>
           <Container style={container}>
-            <Img
+            {/* <Img
               src={`${process.env.DOMAIN_NAME || "https://mystery-message-five.vercel.app"}/logo.png`}
               width="250"
               height="135"
               alt="Mystery Message"
               style={logo}
-            />
+            /> */}
             <Text style={tertiary}>Hello, @{username || "user"}</Text>
             <Heading style={secondary}>
               Enter the following code to verify your account.
